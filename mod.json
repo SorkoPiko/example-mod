@@ -10,5 +10,9 @@
 	"name": "$MOD_NAME",
 	"version": "$MOD_VERSION",
 	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION"
+	"description": "$MOD_DESCRIPTION",
+	"links": {
+		"source": "https://github.com/SorkoPiko/$MOD_NAME",
+		"community": "https://discord.gg/8uPFxhxBX9"
+	}
 }

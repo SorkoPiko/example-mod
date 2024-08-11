@@ -6,10 +6,11 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 
 project(Template VERSION 1.0.0)
 
-# Set up the mod binary
+file(GLOB_RECURSE SOURCES
+        src/*.cpp
+)
 add_library(${PROJECT_NAME} SHARED
-    src/main.cpp
-    # Add any extra C++ source files here
+        ${SOURCES}
 )
 
 if (NOT DEFINED ENV{GEODE_SDK})
@@ -20,5 +21,4 @@ endif()
 
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
-# Set up dependencies, resources, and link Geode.
 setup_geode_mod(${PROJECT_NAME})
