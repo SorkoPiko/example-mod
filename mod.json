@@ -14,5 +14,12 @@
 	"links": {
 		"source": "https://github.com/SorkoPiko/$MOD_NAME",
 		"community": "https://discord.gg/8uPFxhxBX9"
-	}
+	},
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=v1.13.2",
+			"importance": "required"
+		}
+	]
 }
