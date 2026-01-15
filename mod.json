@@ -37,7 +37,7 @@
 	"dependencies": [
 		{
 			"id": "geode.node-ids",
-			"version": ">=v1.15.0",
+			"version": ">=v1.21.1",
 			"importance": "required"
 		}
 	]
